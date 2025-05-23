@@ -1,0 +1,15 @@
+.about .title .heading{
+    text-align: start;
+}
+.about .title >p{
+    color: #72809d;
+}
+@media(max-width:767px){
+    .about .title p{
+        width: 100%;
+    }
+    .about .row{
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+}

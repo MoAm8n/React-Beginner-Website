@@ -1,0 +1,38 @@
+.awards{
+    background-color: #122947;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+.awards .container{
+    padding: 80px 0;
+}
+.awards .heading h1{
+    color: #27ae60;
+}
+.awards .box {
+    margin-top: 50px;
+}
+.awards .box .icon{
+    background-color: hsla(0, 0%, 100%, .1);
+    width: 50%;
+    height: 50%;
+    border-radius: 4% 50%;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.awards .box h1{
+    padding: 20px 0;
+}
+.awards .box p{
+    color: #27ae60;
+}
+@media (max-width:767px){
+    .grid4{
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)) !important;
+        grid-gap: 15px !important;
+    }
+}

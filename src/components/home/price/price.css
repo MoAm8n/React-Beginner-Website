@@ -1,0 +1,47 @@
+.price{
+    padding: 80px 0;
+}
+.price .container p{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.price .box {
+    box-shadow: 0 0 20px 0 rgba(112,121,138,.18);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    height: auto;
+    width: 100%;
+}
+.price .box .bestBtn button{
+    background-color: #ff6922;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.price .box:nth-child(1) .bestBtn button,
+.price .box:nth-child(3) .bestBtn button{
+    display: none;
+}
+.price .box .title h1,
+.price .box .title h2{
+    font-weight: 900;
+}
+.price .box .title h1{
+    font-size: 50px;
+}
+.price .list-item li{
+    display: flex;
+    margin-bottom: 20px;
+}
+.price .list-item li label{
+    margin-right: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.btn5{
+    width: 100%;
+    border: 5px solid #27ae601f;
+}

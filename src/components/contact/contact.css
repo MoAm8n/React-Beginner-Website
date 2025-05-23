@@ -1,0 +1,25 @@
+.shadow{
+    box-shadow: 0 0 20px 0 rgba(112,121,138,.18);
+}
+.contact input,
+.contact textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid hsla(0,0%,50%,.2);
+    border-radius: 5px;
+    outline: none;
+    font-weight: 700;
+}
+.contact textarea{
+    height: 180px;
+}
+.contact input::placeholder{
+    color: black;
+}
+@media (max-width: 767px){
+    .shadow{
+        margin-top: 30px;
+    }
+
+}

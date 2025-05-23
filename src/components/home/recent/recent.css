@@ -1,0 +1,21 @@
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+}
+.recent .box{
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+}
+img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.recent .text{
+    padding: 20px;
+    border-bottom: 1px solid #e4e8f3;
+}
+.recent i{
+    color: #9e9e9e;
+    cursor: pointer;
+}
