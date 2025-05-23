@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-Beginner-Website/static/css/main.ec8bc821.css",
+    "main.js": "/React-Beginner-Website/static/js/main.7d133d24.js",
+    "static/media/a1.jpg": "/React-Beginner-Website/static/media/a1.56e92b20e762df2fa5de.jpg",
+    "static/media/pricing.jpg": "/React-Beginner-Website/static/media/pricing.4552ccf3b91e93029513.jpg",
+    "static/media/services.jpg": "/React-Beginner-Website/static/media/services.13be7fde05782bd5e2e8.jpg",
+    "static/media/hero.png": "/React-Beginner-Website/static/media/hero.1a3c8a0a448e8e24f6a0.png",
+    "index.html": "/React-Beginner-Website/index.html",
+    "main.ec8bc821.css.map": "/React-Beginner-Website/static/css/main.ec8bc821.css.map",
+    "main.7d133d24.js.map": "/React-Beginner-Website/static/js/main.7d133d24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec8bc821.css",
+    "static/js/main.7d133d24.js"
+  ]
+}
