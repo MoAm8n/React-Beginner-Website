@@ -26,7 +26,7 @@ export const nav = [
 ]
 export const featured = [
   {
-    cover: "../../../public/images/featured/h1.png",
+    cover: "../images/featured/h1.png",
     name: "Family House",
     total: "122 Property",
   },
@@ -46,7 +46,7 @@ export const featured = [
     total: "80 Property",
   },
   {
-    cover: "../images/featured/h6.png",
+    cover: "../images/featured/h5.png",
     name: "Villa & Condo",
     total: "80 Property",
   },
