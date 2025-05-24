@@ -26,7 +26,7 @@ export const nav = [
 ]
 export const featured = [
   {
-    cover: "../images/featured/h1.png",
+    cover: "../image/services.jpg",
     name: "Family House",
     total: "122 Property",
   },
