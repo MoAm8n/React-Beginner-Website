@@ -1,13 +1,13 @@
 import React from 'react'
 import Heading from '../common/Heading'
 import Back from '../common/Back'
-// import image from '../image/a1.jpg'
+import image from '../image/a1.jpg'
 import './about.css'
 const About = () => {
     return (
         <>
             <section className='about'>
-                <Back name="About Us" title="About Us - Who We Are?" src={process.env.PUBLIC_URL + "/image/a1.jpg"} alt="" />
+                <Back name="About Us" title="About Us - Who We Are?" cover={image}/>
                 <div className="container">
                     <div className="row py-5">
                     <div className="title col-12 col-md-6">
@@ -17,7 +17,7 @@ const About = () => {
                         <button className='rounded-5'>More About Us</button>
                     </div>
                     <div className="img col-12 col-md-6">
-                        <img src="../images/about.jpg" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/images/about.jpg"} alt="Logo" />
                     </div>
                     </div>
                 </div>
