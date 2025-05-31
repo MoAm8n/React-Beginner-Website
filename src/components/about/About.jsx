@@ -17,7 +17,7 @@ const About = () => {
                         <button className='rounded-5'>More About Us</button>
                     </div>
                     <div className="img col-12 col-md-6">
-                        <img src={process.env.PUBLIC_URL + "/images/about.jpg"} alt="Logo" />
+                        <img src={process.env.PUBLIC_URL + "/images/about.jpg"} alt="" />
                     </div>
                     </div>
                 </div>
