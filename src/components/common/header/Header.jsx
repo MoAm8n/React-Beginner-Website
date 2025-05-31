@@ -9,7 +9,8 @@ const Header = () => {
       <header>
         <div className="container flex">
           <div className="logo">
-            <img src='./images/logo.png' alt="logo" />
+            <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="Logo" />
+            {/* <img src='./images/logo.png' alt="logo" /> */}
           </div>
           <div className="nav">
             <ul className={navList ? "small" : "flex"}>
