@@ -21,7 +21,8 @@ const Footer = () => {
             <div className="container">
                 <div className="grid4">
                     <div className="box1">
-                        <img src="../images/logo-light-footer.png" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/images/logo-light-footer.png"} alt="Logo" />
+                        {/* <img src="../images/logo-light-footer.png" alt="" /> */}
                         <h3>Do You Need Help With Anything?</h3>
                         <p>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p>
                         <div className='flex gap-3'>

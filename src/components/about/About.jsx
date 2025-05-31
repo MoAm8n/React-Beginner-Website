@@ -1,13 +1,13 @@
 import React from 'react'
 import Heading from '../common/Heading'
 import Back from '../common/Back'
-import image from '../image/a1.jpg'
+// import image from '../image/a1.jpg'
 import './about.css'
 const About = () => {
     return (
         <>
             <section className='about'>
-                <Back name="About Us" title="About Us - Who We Are?" cover={image}/>
+                <Back name="About Us" title="About Us - Who We Are?" src={process.env.PUBLIC_URL + "/image/a1.jpg"} alt="" />
                 <div className="container">
                     <div className="row py-5">
                     <div className="title col-12 col-md-6">

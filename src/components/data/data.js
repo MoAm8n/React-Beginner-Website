@@ -25,28 +25,28 @@ export const nav = [
   },
 ]
 export const featured = [
-  {
-    cover: "../image/services.jpg",
+  {            
+    cover: `${process.env.PUBLIC_URL}//image/services.jpg`,
     name: "Family House",
     total: "122 Property",
   },
   {
-    cover: "../images/featured/h2.png",
+    cover: `${process.env.PUBLIC_URL}//images/featured/h2.png`,
     name: "House & Villa",
     total: "155 Property",
   },
   {
-    cover: "../images/featured/h3.png",
+    cover: `${process.env.PUBLIC_URL}//images/featured/h3.png`,
     name: "Apartment",
     total: "300 Property",
   },
   {
-    cover: "../images/featured/h4.png",
+    cover: `${process.env.PUBLIC_URL}//images/featured/h4.png`,
     name: "Office & Studio",
     total: "80 Property",
   },
   {
-    cover: "../images/featured/h5.png",
+    cover: `${process.env.PUBLIC_URL}//images/featured/h5.png`,
     name: "Villa & Condo",
     total: "80 Property",
   },
@@ -54,7 +54,7 @@ export const featured = [
 export const list = [
   {
     id: 1,
-    cover: "../images/recent/p-1.png",
+    cover: `${process.env.PUBLIC_URL}//images/recent/p-1.png`,
     name: "Red Carpet Real Estate",
     location: "210 Zirak Road, Canada",
     category: "For Rent",
@@ -63,7 +63,7 @@ export const list = [
   },
   {
     id: 2,
-    cover: "../images/recent/p-2.png",
+    cover: `${process.env.PUBLIC_URL}//images/recent/p-2.png`,
     name: "Fairmount Properties",
     location: "5698 Zirak Road, NewYork",
     category: "For Sale",
@@ -72,7 +72,7 @@ export const list = [
   },
   {
     id: 3,
-    cover: "../images/recent/p-7.png",
+    cover: `${process.env.PUBLIC_URL}//images/recent/p-7.png`,
     name: "The Real Estate Corner",
     location: "5624 Mooker Market, USA",
     category: "For Rent",
@@ -81,7 +81,7 @@ export const list = [
   },
   {
     id: 4,
-    cover: "../images/recent/p-4.png",
+    cover: `${process.env.PUBLIC_URL}//images/recent/p-4.png`,
     name: "Herringbone Realty",
     location: "5621 Liverpool, London",
     category: "For Sale",
@@ -90,7 +90,7 @@ export const list = [
   },
   {
     id: 5,
-    cover: "../images/recent/p-5.png",
+    cover: `${process.env.PUBLIC_URL}//images/recent/p-5.png`,
     name: "Brick Lane Realty",
     location: "210 Montreal Road, Canada",
     category: "For Rent",
@@ -99,7 +99,7 @@ export const list = [
   },
   {
     id: 6,
-    cover: "../images/recent/p-6.png",
+    cover: `${process.env.PUBLIC_URL}//images/recent/p-6.png`,
     name: "Banyon Tree Realty",
     location: "210 Zirak Road, Canada",
     category: "For Sale",
@@ -136,7 +136,7 @@ export const location = [
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
-    cover: "./images/location/city-1.png",
+    cover: `${process.env.PUBLIC_URL}//images/location/city-1.png`,
   },
   {
     id: 2,
@@ -144,7 +144,7 @@ export const location = [
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
-    cover: "./images/location/city-2.png",
+    cover: `${process.env.PUBLIC_URL}//images/location/city-2.png`,
   },
   {
     id: 3,
@@ -152,7 +152,7 @@ export const location = [
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
-    cover: "./images/location/city-3.png",
+    cover: `${process.env.PUBLIC_URL}//images/location/city-3.png`,
   },
   {
     id: 4,
@@ -160,7 +160,7 @@ export const location = [
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
-    cover: "./images/location/city-4.png",
+    cover: `${process.env.PUBLIC_URL}//images/location/city-4.png`,
   },
   {
     id: 5,
@@ -168,7 +168,7 @@ export const location = [
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
-    cover: "./images/location/city-5.png",
+    cover: `${process.env.PUBLIC_URL}//images/location/city-5.png`,
   },
   {
     id: 6,
@@ -176,48 +176,48 @@ export const location = [
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
-    cover: "./images/location/city-6.png",
+    cover: `${process.env.PUBLIC_URL}//images/location/city-6.png`,
   },
 ]
 export const team = [
   {
     list: "50",
-    cover: "../images/team/team-1.jpg",
+    cover: `${process.env.PUBLIC_URL}//images/team/team-1.jpg`,
     address: "Liverpool, Canada",
     name: "Sargam S. Singh",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "70",
-    cover: "../images/team/team-2.jpg",
+    cover: `${process.env.PUBLIC_URL}//images/team/team-2.jpg`,
     address: "Montreal, Canada",
     name: "Harijeet M. Siller",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "80",
-    cover: "../images/team/team-3.jpg",
+    cover: `${process.env.PUBLIC_URL}//images/team/team-3.jpg`,
     address: "Denever, USA",
     name: "Anna K. Young",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "51",
-    cover: "../images/team/team-4.jpg",
+    cover: `${process.env.PUBLIC_URL}//images/team/team-4.jpg`,
     address: "2272 Briarwood Drive",
     name: "Michael P. Grimaldo",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "42",
-    cover: "../images/team/team-5.jpg",
+    cover: `${process.env.PUBLIC_URL}//images/team/team-5.jpg`,
     address: "2272 Briarwood Drive",
     name: "Michael P. Grimaldo",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "38",
-    cover: "../images/team/team-1.jpg",
+    cover: `${process.env.PUBLIC_URL}//images/team/team-1.jpg`,
     address: "Montreal, USA",
     name: "Adam K. Jollio",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
